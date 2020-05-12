@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+.navbar-section {
+    background-color: black;
+    
+}
+.navbar-section .navbar-brand {
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.navbar-list {
+    color: white;
+    margin-right:40px;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    margin-left: 40px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid transparent
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: teal;
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+hr {
+    margin: 0;
+    border : 1px solid rgb(210, 231, 231);
+    color: white;
+}
+.header-section {
+    background: black;
+    text-align: center;
+    min-height: 500px;
+}
+.header-section img {
+    margin-top: 5em;
+}
+img {
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+    border: 0;
+}
+.header-section h4 {
+    color: #2d837c;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.header-section h2{
+    color: teal;
+    font-size: 40px;
+    
+}
+.header-section p {
+    font-family: 'Nunito-Bold';
+    font-size: 30px;
+    color: teal;
+}
+p {
+    padding: 0 0;
+    padding-bottom: 12px;
+    margin: 0 0;
+}
+/*****************start-Study-section *******************************/
+
+.study-section {
+    padding: 3em 0;
+}
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.study-grid {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.study-grid h3 {
+    font-family: 'Nunito-Bold';
+    font-size: 2.5em;
+    text-transform: capitalize;
+    color: brown;
+    text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.study1 {
+    padding: 1em  0;
+    text-align: center;
+}
+.study-grid p {
+    font-size: 1.2em;
+    color: black;
+    padding: 1em 0;
+    font-weight: 500;
+}
+
+.progress {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    /* box-shadow: none; */
+}
+
+.skill {
+     /* padding: 1.1em 0;  */
+    text-align: center;
+
+    
+}
+.study2 {
+    margin-top: 25px;
+    padding: 0 60px;
+}
+
+h4.progress {
+    padding: 1.1em 0;
+}
+/*****************End-Study-section *******************************/
+
+/********************************* Contact-Section ****************************/
+
+.social-icons {
+    background: #fff;
+    padding: 4em 0;
+}
+
+.social-icons h3 {
+    font-family: 'Nunito-Bold';
+    font-size: 2.5em;
+    text-transform: capitalize;
+    color: #393b3a;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.face p {
+    font-size: 3em;
+    color: #B4BEB9;
+    font-weight: 500;
+    margin: 0 9px;
+}
+
+
+/********************************* End-Section ****************************/
+
+/********************************* Contact-Section ****************************/
+
+.contact {
+  text-align: center;
+    background-color: black;
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px; 
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.contact-row {
+    background-color: black;
+    margin: 0;
+    padding-bottom:20px;
+    padding-top: 25px;
+
+}
+
+.d-flex a i {
+    color: wheat ;
+}
+
+.contact-link {
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+ .container-fluid {
+     padding: 0;
+     
+     
+ }
+
+ .contact-link a i {
+     font-size: 30px;
+     padding: 5px 0px;
+     border: 10px solid black;
+ }
+
+ .contact-link a i:hover {
+     background-color: teal;
+     border: 10px solid transparent;
+    
+ }
+
+.box {
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
