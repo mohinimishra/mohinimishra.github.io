@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.navbar-section {
+/* .navbar-section {
     background-color: black;
     
 }
@@ -33,45 +33,105 @@
     background-color: white;
 }
 
-hr {
+/* hr {
     margin: 0;
     border : 1px solid rgb(210, 231, 231);
     color: white;
-}
+} */
 .header-section {
-    background: black;
-    text-align: center;
+    background-color: black;
+    /* background-repeat: no-repeat, repeat; */
+    color: #FFF;
     min-height: 500px;
+    height: 100%;
 }
-.header-section img {
-    margin-top: 5em;
+/* .header-section img {
+    margin-top: 4em;
+
+} */
+.port{
+    border-radius: 50%;
+    border: 6px #ccc solid;
+    width: 16%;
+   
 }
-img {
-    vertical-align: middle;
-    height: 200px;
-    width: 200px;
-    border: 0;
-}
-.header-section h4 {
+
+/* .header-section h4 {
     color: #2d837c;
     font-size: 25px;
     margin-top: 10px;
-}
+} */
 .header-section h2{
-    color: teal;
-    font-size: 40px;
-    
+     color: white;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+  
 }
 .header-section p {
-    font-family: 'Nunito-Bold';
+    /* font-family: 'Nunito-Bold';
     font-size: 30px;
-    color: teal;
+    color: teal; */
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        padding-bottom: 0.7rem;
+    line-height: 1.5;
+
+
 }
-p {
-    padding: 0 0;
+
+.icon-row{
+    margin: 45px auto;
+    width: 100%;
+}
+
+.icon-row i {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 44px;
+    margin: 0px 10px;
+    padding: 0px 3px;
+    transition: all 400ms ease-in-out;
+}
+
+i {
+    color:white;
+}
+
+i.icon:hover{
+    background-color: whitesmoke;
+    border: 1px solid white;
+    color: black;
+}
+.second-Section {
+    background: #eee;
+    color: #888;
+    width: 100%;
+}
+
+.fixed-content{
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    display: block;
+    padding: 40px;
+    text-align: center;
+}
+
+p.fixed-text{
+    color: black;
+    padding-top: 16px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+/* p { */
+    /* padding: 0 0;
     padding-bottom: 12px;
     margin: 0 0;
-}
+} */
 /*****************start-Study-section *******************************/
 
 .study-section {
