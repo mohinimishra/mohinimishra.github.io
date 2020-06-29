@@ -9,42 +9,29 @@
 
 	<meta name="description" content="Mohini Mishra portfolio">
 
-<!-- bootstrap-file -->
+	<!-- bootstrap-file -->
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<!-- css file -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="./aos.scss">
 
 </head>
+
 <body>
 	<!----------------- Start HEADER Section -------------------------->
 
-	<div class="header-section ">
-		<!-- <nav class="navbar navbar-expand-lg navbar-light  navbar-section ">
-			<a class="navbar-brand" href="#">MM</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto navbar-list">
-					<li class="nav-item ">
-						<a class="nav-link" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div> -->
-		<!-- </nav> -->
+	<div class="header-section">
 		<div class="fixed-content">
 			<img class="port" src="image/mohini.jpg">
 			<h2>Mohini Mishra</h2>
-			<p>Software Engg.</p>	
+			<p>Software Engg.</p>
 			<div class="icon-row">
 				<a href="https://github.com/mohinimishra" target="_blank">
 					<i class="fa fa-github icon"></i>
@@ -60,10 +47,10 @@
 				</a>
 			</div>
 		</div>
-		<div class="second-Section">
+		<div class="second-Section shadow p-3 mb-5 bg-white rounded">
 			<div class="fixed-content">
 				<h1>Summary</h1>
-				<p class="fixed-text"> "I'm a graduate B.TECH CSE student at S.I.E.T College. Intrested in Web-Devlopment using HTML/CSS/JavaScript."
+				<p class="fixed-text" data-aos="zoom-in"> I'm a graduate B.TECH CSE student at S.I.E.T College. Intrested in Web-Devlopment using HTML/CSS/JavaScript.
 					<br>
 					"Further, I'm keen towards the FullStack Developer field."
 				</p>
@@ -71,8 +58,95 @@
 		</div>
 	</div>
 
+	<!-- ----------- Start Study-Section ---------------- -->
+
+	<section class="colorlib-skills" data-section="skills">
+		<div class="colorlib-narrow-content">
+			<div class="row" >
+				<div class="col-md-12 col-md-offset-6 col-md-pull-6 ml-3" data-aos="fade-right">
+					<h2>My Skills</h2>
+					<hr>
+				</div>
+				<p class="skillPara" data-aos="fade-up-left">Few of the skills that I consider myself acquainted with, to serve the given
+					opportunity are showcased here.
+				</p>
+			</div>
+		</div>
+	</section>
+	<div class="container mt-5 shadow-lg p-3 mb-5 bg-white rounded">
+		<div class="row">
+			<div class="col-md-6 bg-white" data-aos="fade-right" data-aos-offset="200"
+			data-aos-easing="ease-in-sine">
+				<h4>Html</h4>
+				<h5 class="percentage text-danger">75 <span>%</span></h5>
+					<div class="progress progress-style htmlSection" style="height: 10px;">
+						<div class="progress-bar bg-danger	" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+						</div>
+					  </div>
+				<h4>CSS</h4>
+				<h5 class="percentage text-warning">70<span>%</span></h5>
+				<div class="progress progress-style" style="height: 10px;">
+					<div class="progress-bar bg-warning" role="progressbar" 		style="width: 75%;" aria-valuenow="25" 		aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+				<h4>Bootstrap</h4>
+				<h5 class="percentage text-primary">65<span>%</span></h5>
+				<div class="progress progress-style" style="height: 10px;">
+					<div class="progress-bar" role="progressbar" 		style="width: 75%;" aria-valuenow="25" 		aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 bg-white" data-aos="fade-left"
+				data-aos-offset="200"
+				data-aos-easing="ease-in-sine">
+				<h4>JavaScript</h4>
+				<h5 class="percentage text-success">50<span>%</span></h5>
+				<div class="progress progress-style" style="height: 10px;">
+					<div class="progress-bar bg-success" role="progressbar" 		style="width: 75%;" aria-valuenow="25" 				aria-valuemin="0" aria-valuemax="100">
+					</div>
+				</div>
+				<h4>Python</h4>
+				<h5 class="percentage text-dark">65<span>%</span></h5>
+				<div class="progress progress-style" style="height: 10px;">
+						<div class="progress-bar bg-dark" role="progressbar" 		style="width: 75%;" aria-valuenow="25" 		aria-valuemin="0" aria-valuemax="100">
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class=" container-fluid second-Section shadow p-1 mb-5 bg-white rounded">
+			<div class="contact-section">
+				<h1 data-aos="fade-right">Contact</h1>
+				<hr>
+				<div class="row col-md-12">
+					<div class="icon-row-contact d-flex flex-row justify-content-between align-item-center">
+						<a  href="https://github.com/mohinimishra" target="_blank" >
+						<i class="fa fa-github icon" ></i>
+						</a>
+						<a href="https://www.linkedin.com/in/mohini-mishra-5183481b1/" target="_blank">
+						<i class="fa fa-linkedin-square icon"></i>
+						</a>
+						<a  href="https://medium.com/@asmyselfmohini" target="_blank">
+						<i class="fa fa-medium icon"></i>
+						</a>
+						<a  href="#">
+						<i class="fa fa-twitter icon"></i>
+						</a>
+						<a href="#">
+						<i class="fa fa-facebook icon"></i>
+						</a>
+						<a href="#">
+						<i class="fa fa-instagram icon"></i>
+						</a>
+						<a  href="#">
+						<i class="fa fa-google-plus icon"></i>
+						</a>
+					</div>
+				</div>
+			</div>
 	
-<!------------- Start Study-Section ------------------>
+
 
 	<!-- <div class="study-section">
 		<div class="container-fluid" id="skills">
@@ -127,7 +201,7 @@
 			</div>
 		</div>
 	</div>
-	<!-------------------------------Contact-Section------------------------->
+	<-----------------------------Contact-Section------------------------->
 
 	<!-- <div class="container-fluid " id="contact">
 		<h2 class="contact"> Contact Me
@@ -153,7 +227,7 @@
 			</div>
 		</div>
 	</div> -->
-<!------------------ last-Section ----------->
+	<!------------------ last-Section ----------->
 
 	<!-- <div class="container-fluid text-center box">
 		All Rights Reserved. &copy;
@@ -178,6 +252,13 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
 	<script src="scripts.js" type="text/javascript"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script type="text/Javascript">
+    AOS.init();
+  </script>
+	<script src="./aos.js"></script>
+	
 
 </body>
+
 </html>
